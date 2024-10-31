@@ -20,52 +20,63 @@ export default defineAppConfig({
       darkModeToggle: true,
       nav: [
         {
-        title: 'Hòa thượng',
-        links: [{
-          title: 'HÒA THƯỢNG HƯ VÂN',
-          to: '/hu-van-nien-pho',
-          description: '',
-          target: '_self',
-        }, {
-          title: 'LIÊN TÔNG THẬP TAM TỔ',
-          to: '/lien-tong-thap-tam-to',
-          description: '',
-          target: '_self',
-        }, {
-          title: 'HÒA THƯỢNG TỊNH KHÔNG',
-          to: '/hoa-thuong-tinh-khong',
-          description: '',
-          target: '_self',
-        }, {
-          title: 'THIỀN SƯ CHÍ CÔNG',
-          to: '/thien-su-chi-cong',
-          description: '',
-          target: '_self',
-        }],
-    },
+          title: 'Hòa thượng',
+          links: [
+            {
+              title: 'HÒA THƯỢNG HƯ VÂN',
+              to: '/hu-van-nien-pho',
+              target: '_self',
+            },
+            {
+              title: 'LIÊN TÔNG THẬP TAM TỔ',
+              to: '/lien-tong-thap-tam-to',
+              target: '_self',
+            },
+            {
+              title: 'HÒA THƯỢNG TỊNH KHÔNG',
+              to: '/hoa-thuong-tinh-khong',
+              target: '_self',
+            },
+            {
+              title: 'THIỀN SƯ CHÍ CÔNG',
+              to: '/thien-su-chi-cong',
+              target: '_self',
+            },
+          ],
+        },
         {
           title: 'Sách',
-          links: [{
-            title: 'NIỆM PHẬT TÔNG YẾU',
-            to: '/niem-phat-tong-yeu',
-            description: '',
-            target: '_self',
-          }, {
-            title: 'THỌ KHANG BẢO GIÁM (壽康寶鑒)',
-            to: '/tho-khang-bao-giam',
-            description: '',
-            target: '_self',
-          }, {
-            title: 'LƯƠNG HOÀNG SÁM',
-            to: '/luong-hoang-sam',
-            description: '',
-            target: '_self',
-          }, {
-            title: 'SƠN AM TẠP LỤC',
-            to: '/son-am-tap-luc',
-            description: '',
-            target: '_self',
-          }],
+          links: [
+            {
+              title: 'TỦ SÁCH TỊNH ĐỘ',
+              to: '/tu-sach-tinh-do',
+              target: '_self',
+            },
+            {
+              title: 'NIỆM PHẬT TÔNG YẾU',
+              to: '/niem-phat-tong-yeu',
+              description: '',
+              target: '_self',
+            },
+            {
+              title: 'THỌ KHANG BẢO GIÁM',
+              to: '/tho-khang-bao-giam',
+              description: '',
+              target: '_self',
+            },
+            {
+              title: 'LƯƠNG HOÀNG SÁM',
+              to: '/luong-hoang-sam',
+              description: '',
+              target: '_self',
+            },
+            {
+              title: 'SƠN AM TẠP LỤC',
+              to: '/son-am-tap-luc',
+              description: '',
+              target: '_self',
+            },
+          ],
         },
         {
           title: 'Video',
@@ -95,9 +106,9 @@ export default defineAppConfig({
           target: '_blank',
         },
         {
-          title: 'TỦ SÁCH TỊNH ĐỘ',
-          to: '/tu-sach-tinh-do',
-          target: '_self',
+          title: 'THAM TỔ SƯ THIỀN',
+          to: 'https://patriarchalzen.quest/',
+          target: '_blank',
         },
       ],
       links: [
@@ -170,35 +181,10 @@ export default defineAppConfig({
         'terminal': 'lucide:terminal',
       },
     },
-    footer: {
-      credits: '',
-      links: [
-        /*{
-          title: 'shadcn-vue',
-          to: 'https://www.shadcn-vue.com/',
-          target: '_blank',
-        },
-        {
-          icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-          target: '_blank',
-        },*/
-      ],
-    },
+    footer: {},
     toc: {
       enable: true,
       title: 'On This Page',
-     /* links: [{
-        title: 'Star on GitHub',
-        icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-        target: '_blank',
-      }, {
-        title: 'Create Issues',
-        icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
-        target: '_blank',
-      }],*/
     },
     search: {
       enable: true,
