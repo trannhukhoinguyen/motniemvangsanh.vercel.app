@@ -98,6 +98,18 @@ export default defineAppConfig({
               description: '',
               target: '_blank',
             },
+            {
+              title: 'PHÓNG SINH VÀ HỘ SINH',
+              to: '/phong-sinh-va-ho-sinh',
+              description: '',
+              target: '_blank',
+            },
+            {
+              title: 'LÃO HÒA THƯỢNG HẢI HIỀN',
+              to: '/hoa-thuong-hai-hien',
+              description: '',
+              target: '_blank',
+            },
           ],
         },
         {
