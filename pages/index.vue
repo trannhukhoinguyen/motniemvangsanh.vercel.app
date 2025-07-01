@@ -11,6 +11,8 @@
   </div>
 -->
 
+    <img src="/try_to_avoid_eating_these_food.png"  alt="Try to avoid eating these food"/>
+    
     <div class="landscape">
         <div class="mountain"></div>
         <div class="mountain mountain-2"></div>
