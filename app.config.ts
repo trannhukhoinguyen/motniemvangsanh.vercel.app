@@ -119,7 +119,7 @@ export default defineAppConfig({
         },
         {
           title: 'THAM TỔ SƯ THIỀN',
-          to: 'https://patriarchalzen.quest/',
+          to: 'https://tosuthien.org/',
           target: '_blank',
         },
       ],
